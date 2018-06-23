@@ -1,0 +1,213 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    /* background: rgba(242, 180, 121, 0.4); */
+    font-size: 20px;
+}
+p{
+  font-size: 1.5rem !important;
+} */
+/* Top bar */
+#nav_bar {
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  background-color: rgba(244, 236, 200,0.8);
+}
+.nav-link {
+  font-size: 1.125rem;
+  font-weight: bold;
+  visibility: visible !important;
+}
+.logo_first {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: rgb(191, 46, 15);
+  visibility: visible !important;
+}
+.logo_second {
+
+  margin: 1rem auto 1.5rem auto !important;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(191, 46, 15);
+  visibility: visible !important;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+h1 {
+  /* Offset for top bar */
+  /*dislike your Comment , denied !*/
+  padding-top: 4rem;
+}
+
+/* Paragraphs */
+.emphasis {
+  font-size: 1.5625rem;
+  font-weight: bold;
+}
+.first_word {
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 5px;
+}
+.step_explanation {
+  font-size: 1rem;
+}
+/* SSBL */
+.head_photo{
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("../images/book2.jpg");
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+#head_photo_img{
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 242, 204, 0.3);
+}
+
+#bt1{
+  font-weight:bold;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+/*
+#reason_box{
+  background-color: rgba(255, 242, 204, 0.6);
+  line-height: 2.5rem;
+  width: 70%;
+  margin: 40px auto;
+}
+#reason_box h1{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  margin: 0px auto;
+}
+
+#container_body{
+  background-color: rgba(255, 242, 204, 0.6);
+  padding: 30px;
+  width: 70%;
+  margin: 40px auto;
+  line-height: 2.5rem;
+}
+
+#container_body h1{
+  margin: 30px auto;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+}
+
+#step_box .step{
+  margin: 15px;
+  padding: 6px;
+}
+#step_box img{
+  margin: 0px auto;
+  float: center;
+
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  width: 70%;
+}
+#saying {
+  font-size: 3rem;
+}
+#saying-name {
+  font-size: 3rem;
+}
+
+@media (max-width: 575px){
+    .head_photo{
+        background-attachment: scroll;
+    }
+    #Ti h1{
+      font-size: 6rem !important;
+    }
+    #Ti h2{
+      font-size: 1.5rem !important;
+    }
+    html, body{
+      font-size: 11px !important;
+    }
+    #reason_box{
+      
+      width: 95%;
+      
+      margin-right: 1rem auto;
+    }
+    #container_body{
+      
+      width: 95%;
+      margin-right: 1rem auto;
+    }
+}
+@media (max-width: 970px){
+    .head_photo{
+        background-attachment: scroll;
+    }
+    html, body{
+      font-size: 13px;
+    }
+    #Ti h1{
+      font-size: 5rem;
+    }
+    #Ti h2{
+      font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 992px){
+  #step_box img{
+    width: 60%;
+  }
+}
+
+@media(min-width: 1200px){
+  #step_box img{
+    max-width: 50%;
+  }
+}
+
+#interested_box{
+  background-color: rgba(255, 242, 204, 0.3);
+  line-height: 2.5rem;
+
+}
+#interested_box h1{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  margin: 0px ;
+}
+
+#footer{
+  background-image: url("../images/book1.jpg");
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer_img{
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 242, 204, 0.5);
+}
+#saying {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+#saying-name {
+  float: right;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}*/
