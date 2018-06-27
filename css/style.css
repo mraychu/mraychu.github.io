@@ -52,7 +52,7 @@ body a:focus, a:hover {
 }
 input[type="email"],input[type="text"],input[type=password],
 input[type="button"],input[type="submit"],textarea{
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -220,9 +220,9 @@ input#datepicker2{width:100%;}
     color: #000;
 }	
 input[type="submit"] {
-	    border-radius:0px;
+	border-radius:0px;
     text-transform: uppercase;
-       background: #FFC107;
+    background: #FFC107;
     color: #000000;
     padding:11px 15px;
     border: none;
@@ -232,13 +232,13 @@ input[type="submit"] {
     letter-spacing: 1px;
     margin:20px 0px;
     cursor: pointer;
-    -webkit-transition: 0.5s all;
+    /* -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+    -ms-transition: 0.5s all; */
 }
  
-	input[type="submit"]:hover {
+input[type="submit"]:hover {
     color: #fff;
     background: #000;
 }
